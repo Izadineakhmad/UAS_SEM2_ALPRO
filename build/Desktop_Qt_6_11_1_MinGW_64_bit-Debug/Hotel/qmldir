@@ -1,0 +1,9 @@
+module Hotel
+typeinfo appHotel.qmltypes
+prefer :/qt/qml/Hotel/
+Main 254.0 Main.qml
+AdminDashboard 254.0 AdminDashboard.qml
+UserDashboard 254.0 UserDashboard.qml
+LoginView 254.0 LoginView.qml
+depends QtQuick
+

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Hotel">
+    <file alias="qmldir">D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Hotel/qmldir</file>
+  </qresource>
+</RCC>
+

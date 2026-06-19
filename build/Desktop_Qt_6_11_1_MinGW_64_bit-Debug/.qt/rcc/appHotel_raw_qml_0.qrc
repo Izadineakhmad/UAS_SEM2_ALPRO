@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/qt/qml/Hotel/">
+    <file alias="Main.qml">D:/Hotel/Main.qml</file>
+    <file alias="AdminDashboard.qml">D:/Hotel/AdminDashboard.qml</file>
+    <file alias="UserDashboard.qml">D:/Hotel/UserDashboard.qml</file>
+    <file alias="LoginView.qml">D:/Hotel/LoginView.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,4 @@
+ID,Nomor,Tipe,Harga,Kapasitas,Status
+1,101,Standard,500000,2,0
+2,102,Deluxe,800000,2,0
+3,201,Suite,1.5e+06,4,1

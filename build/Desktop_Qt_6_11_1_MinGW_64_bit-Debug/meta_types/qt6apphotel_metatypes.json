@@ -1,0 +1,257 @@
+[
+    {
+        "classes": [
+            {
+                "className": "HotelBackend",
+                "lineNumber": 55,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "username",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "password",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 64,
+                        "name": "login",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 65,
+                        "name": "logout",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 68,
+                        "name": "getAdminStats",
+                        "returnType": "QVariantMap"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "lineNumber": 69,
+                        "name": "getAllRooms",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "nomor",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "tipe",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "harga",
+                                "type": "double"
+                            },
+                            {
+                                "name": "kapasitas",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 6,
+                        "lineNumber": 70,
+                        "name": "addRoom",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 7,
+                        "lineNumber": 71,
+                        "name": "deleteRoom",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "index": 8,
+                        "lineNumber": 72,
+                        "name": "getAllTransactions",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "newStatus",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 9,
+                        "lineNumber": 73,
+                        "name": "processTransaction",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "index": 10,
+                        "lineNumber": 76,
+                        "name": "getAvailableRooms",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "index": 11,
+                        "lineNumber": 77,
+                        "name": "getAvailableRoomsSortedByPrice",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "keyword",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 12,
+                        "lineNumber": 78,
+                        "name": "searchRooms",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "roomId",
+                                "type": "int"
+                            },
+                            {
+                                "name": "malam",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 13,
+                        "lineNumber": 79,
+                        "name": "bookRoom",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "index": 14,
+                        "lineNumber": 80,
+                        "name": "getMyTransactions",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "index": 15,
+                        "lineNumber": 83,
+                        "name": "saveData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 16,
+                        "lineNumber": 84,
+                        "name": "loadData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 17,
+                        "isConst": true,
+                        "lineNumber": 86,
+                        "name": "currentUserName",
+                        "returnType": "QString"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 57,
+                        "name": "currentUserName",
+                        "notify": "userChanged",
+                        "override": false,
+                        "read": "currentUserName",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 58,
+                        "name": "currentUserRole",
+                        "notify": "userChanged",
+                        "override": false,
+                        "read": "currentUserRole",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    }
+                ],
+                "qualifiedClassName": "HotelBackend",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 90,
+                        "name": "userChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "isError",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 91,
+                        "name": "notify",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "hotelbackend.h",
+        "outputRevision": 69
+    }
+]
