@@ -47,12 +47,12 @@ Aplikasi ini membaca dan menulis data menggunakan file CSV (seperti `users_data.
 ## Informasi Pengujian Sistem (Seeder)
 Sistem memiliki mekanisme inisialisasi otomatis yang akan menyuntikkan data *dummy* jika file data masih kosong. Untuk pengujian awal pasca-instalasi, Anda dapat menggunakan kredensial Administrator bawaan berikut:
 
-
+* ADMIN
 * **Username:** admin
 * **Password:** admin
-*
+
 * USER
-* * **Username:** admin
+* **Username:** admin
 * **Password:** admin
 
 Setelah masuk ke dalam Panel Admin, Anda dapat menyetujui akun pengguna baru yang terdaftar melalui antarmuka pendaftaran, mengelola kamar, serta mengelola transaksi secara penuh.
