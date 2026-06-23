@@ -1122,6 +1122,9 @@
 		"E:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"E:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
 		"E:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+		"E:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+		"E:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
+		"E:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"E:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
 		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/qml_imports/appHotel_conf.cmake",
 		"E:/Qt/6.11.1/mingw_64/lib/cmake/Qt6/windows/app.exe.manifest.in"
@@ -1132,6 +1135,12 @@
 	"DEP_FILE_RULE_NAME" : "appHotel_autogen/timestamp",
 	"HEADERS" : 
 	[
+		[
+			"D:/Hotel/components/QDatePicker/src/qdatepicker.h",
+			"MU",
+			"LWZTKRSOJB/moc_qdatepicker.cpp",
+			null
+		],
 		[
 			"D:/Hotel/hotelbackend.h",
 			"MU",
@@ -1211,11 +1220,16 @@
 	"MOC_SKIP" : 
 	[
 		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appHotel_raw_qml_0.cpp",
+		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appHotel_raw_qml_0_extra_qmldirs.cpp",
+		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appHotel_raw_res_0.cpp",
 		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Hotel.cpp",
 		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_AdminDashboard_qml.cpp",
+		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_LandingPage_qml.cpp",
 		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_LoginView_qml.cpp",
 		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_Main_qml.cpp",
+		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_RegisterView_qml.cpp",
 		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_UserDashboard_qml.cpp",
+		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp",
 		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_qmlcache_loader.cpp",
 		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/apphotel_qmltyperegistrations.cpp"
 	],
@@ -1229,6 +1243,7 @@
 	"SETTINGS_FILE" : "D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/CMakeFiles/appHotel_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "D:/Hotel/components/QDatePicker/src/qdatepicker.cpp", "MU", null ],
 		[ "D:/Hotel/hotelbackend.cpp", "MU", null ],
 		[ "D:/Hotel/main.cpp", "MU", null ]
 	],
@@ -1237,11 +1252,16 @@
 	"UIC_SKIP" : 
 	[
 		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appHotel_raw_qml_0.cpp",
+		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appHotel_raw_qml_0_extra_qmldirs.cpp",
+		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appHotel_raw_res_0.cpp",
 		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Hotel.cpp",
 		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_AdminDashboard_qml.cpp",
+		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_LandingPage_qml.cpp",
 		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_LoginView_qml.cpp",
 		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_Main_qml.cpp",
+		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_RegisterView_qml.cpp",
 		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_UserDashboard_qml.cpp",
+		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp",
 		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_qmlcache_loader.cpp",
 		"D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/apphotel_qmltyperegistrations.cpp"
 	],

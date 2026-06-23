@@ -11,9 +11,16 @@ E:/Qt/6.11.1/mingw_64/qml
 D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Hotel.qrc
 --resource
 D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0.qrc
+--resource
+D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_res_0.qrc
+--resource
+D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc
 D:/Hotel/Main.qml
 D:/Hotel/AdminDashboard.qml
 D:/Hotel/UserDashboard.qml
+D:/Hotel/components/QDatePicker/src/DatePicker.qml
 D:/Hotel/LoginView.qml
+D:/Hotel/LandingPage.qml
+D:/Hotel/RegisterView.qml
 --json
 D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/appHotel_qmllint.json

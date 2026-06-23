@@ -6,27 +6,19 @@
                 {
                     "entries": [
                         {
-                            "codegenResult": 2,
-                            "column": 5,
-                            "durationMicroseconds": 0,
-                            "functionName": "loadUserRooms",
-                            "line": 138,
-                            "message": "Cannot access value for name HotelApp"
-                        },
-                        {
-                            "codegenResult": 2,
+                            "codegenResult": 0,
                             "column": 5,
                             "durationMicroseconds": 0,
                             "functionName": "loadUserTx",
-                            "line": 139,
-                            "message": "Cannot access value for name HotelApp"
+                            "line": 424,
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 9,
+                            "line": 14,
                             "message": ""
                         },
                         {
@@ -34,7 +26,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "onCompleted",
-                            "line": 11,
+                            "line": 16,
                             "message": ""
                         },
                         {
@@ -42,71 +34,151 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 18,
+                            "line": 26,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 31,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 37,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 38,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 53,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 30,
+                            "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 19,
-                            "message": "Cannot access value for name HotelApp"
+                            "line": 48,
+                            "message": "Cannot load property text from (component in D:/Hotel/UserDashboard.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 82,
+                            "column": 32,
                             "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 25,
-                            "message": "method loadUserRooms cannot be resolved."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 88,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 26,
-                            "message": "method loadUserTx cannot be resolved."
+                            "functionName": "color",
+                            "line": 49,
+                            "message": "Cannot load property hovered from (component in D:/Hotel/UserDashboard.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 2,
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 36,
-                            "message": "Cannot access value for name HotelApp"
+                            "line": 70,
+                            "message": "method loadUserTx cannot be resolved."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 66,
+                            "message": "Cannot load property text from (component in D:/Hotel/UserDashboard.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 67,
+                            "message": "Cannot load property hovered from (component in D:/Hotel/UserDashboard.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 91,
+                            "message": "Cannot access value for name mainStack"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 83,
+                            "message": "Cannot load property text from (component in D:/Hotel/UserDashboard.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 44,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalAlignment",
+                            "line": 87,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 46,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalAlignment",
+                            "line": 88,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 53,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 90,
+                            "message": "Cannot load property down from (component in D:/Hotel/UserDashboard.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "contentWidth",
+                            "line": 112,
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 53,
+                            "line": 111,
                             "message": ""
                         },
                         {
-                            "codegenResult": 2,
-                            "column": 44,
+                            "codegenResult": 0,
+                            "column": 32,
                             "durationMicroseconds": 0,
-                            "functionName": "onTextChanged",
-                            "line": 62,
-                            "message": "Cannot access value for name HotelApp"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 66,
-                            "message": "Cannot access value for name HotelApp"
+                            "functionName": "width",
+                            "line": 116,
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 36,
+                            "column": 51,
                             "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 74,
+                            "functionName": "horizontalCenter",
+                            "line": 117,
                             "message": ""
                         },
                         {
@@ -114,47 +186,191 @@
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 76,
+                            "line": 130,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 55,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 138,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 54,
+                            "durationMicroseconds": 0,
+                            "functionName": "minDate",
+                            "line": 157,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 50,
+                            "column": 57,
+                            "durationMicroseconds": 0,
+                            "functionName": "mainWindow",
+                            "line": 160,
+                            "message": "Cannot resolve property type ApplicationWindow for binding on mainWindow."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 68,
+                            "durationMicroseconds": 0,
+                            "functionName": "onSelectedDateChanged",
+                            "line": 161,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 55,
+                            "durationMicroseconds": 0,
+                            "functionName": "minDate",
+                            "line": 180,
+                            "message": "Cannot generate efficient code for call to untyped JavaScript function"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 57,
+                            "durationMicroseconds": 0,
+                            "functionName": "mainWindow",
+                            "line": 186,
+                            "message": "Cannot resolve property type ApplicationWindow for binding on mainWindow."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 68,
+                            "durationMicroseconds": 0,
+                            "functionName": "onSelectedDateChanged",
+                            "line": 187,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 205,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 52,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 216,
+                            "message": "Cannot access value for name roomTypeCombo"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 79,
+                            "line": 217,
                             "message": "Cannot access value for name modelData"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 50,
+                            "column": 58,
                             "durationMicroseconds": 0,
-                            "functionName": "text",
-                            "line": 80,
-                            "message": "Cannot access value for name modelData"
+                            "functionName": "highlighted",
+                            "line": 218,
+                            "message": "Cannot access value for name roomTypeCombo"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 46,
+                            "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 82,
-                            "message": "Cannot access value for name modelData"
+                            "line": 221,
+                            "message": "Cannot load property text from (component in D:/Hotel/UserDashboard.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 55,
+                            "durationMicroseconds": 0,
+                            "functionName": "font",
+                            "line": 222,
+                            "message": "Cannot access value for name roomTypeCombo"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 56,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 223,
+                            "message": "Cannot load property highlighted from (component in D:/Hotel/UserDashboard.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 68,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalAlignment",
+                            "line": 224,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 56,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 228,
+                            "message": "Cannot load property highlighted from (component in D:/Hotel/UserDashboard.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 2,
                             "column": 48,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 86,
-                            "message": "Cannot access value for name bookDialog"
+                            "line": 249,
+                            "message": "method loadUserTx cannot be resolved."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 68,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 240,
+                            "message": "Cannot load property down from (component in D:/Hotel/UserDashboard.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 47,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 242,
+                            "message": "Cannot load property text from (component in D:/Hotel/UserDashboard.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 62,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalAlignment",
+                            "line": 246,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 60,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalAlignment",
+                            "line": 247,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 47,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 273,
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 98,
+                            "line": 319,
                             "message": ""
                         },
                         {
@@ -162,7 +378,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 104,
+                            "line": 326,
                             "message": ""
                         },
                         {
@@ -170,63 +386,135 @@
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 106,
+                            "line": 332,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 46,
+                            "column": 50,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 107,
+                            "line": 337,
                             "message": "Cannot access value for name modelData"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 46,
+                            "column": 50,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 108,
+                            "line": 338,
                             "message": "Cannot access value for name modelData"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 46,
+                            "column": 50,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 109,
+                            "line": 343,
                             "message": "Cannot access value for name modelData"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 88,
+                            "column": 50,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 344,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 348,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 43,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 353,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 109,
+                            "line": 356,
                             "message": "Cannot access value for name modelData"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 26,
-                            "durationMicroseconds": 0,
-                            "functionName": "standardButtons",
-                            "line": 124,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 21,
-                            "durationMicroseconds": 0,
-                            "functionName": "onAccepted",
-                            "line": 129,
-                            "message": "Cannot access value for name HotelApp"
                         },
                         {
                             "codegenResult": 0,
                             "column": 27,
                             "durationMicroseconds": 0,
-                            "functionName": "centerIn",
-                            "line": 121,
+                            "functionName": "fill",
+                            "line": 381,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 29,
+                            "durationMicroseconds": 0,
+                            "functionName": "source",
+                            "line": 390,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "fillMode",
+                            "line": 391,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 389,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 401,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 403,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "wrapMode",
+                            "line": 406,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalAlignment",
+                            "line": 410,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 417,
                             "message": ""
                         }
                     ],

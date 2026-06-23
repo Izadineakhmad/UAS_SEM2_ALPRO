@@ -1,0 +1,223 @@
+{
+    "classes": [
+        {
+            "className": "QDatePicker",
+            "lineNumber": 10,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 36,
+                    "name": "getLongWeekDaysName",
+                    "returnType": "QList<QString>"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 37,
+                    "name": "getShortWeekDaysName",
+                    "returnType": "QList<QString>"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 38,
+                    "name": "getNarrowWeekDaysName",
+                    "returnType": "QList<QString>"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "lineNumber": 40,
+                    "name": "getLongMonthsName",
+                    "returnType": "QList<QString>"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "lineNumber": 41,
+                    "name": "getShortMonthsName",
+                    "returnType": "QList<QString>"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "lineNumber": 42,
+                    "name": "getNarrowMonthsName",
+                    "returnType": "QList<QString>"
+                },
+                {
+                    "access": "public",
+                    "index": 9,
+                    "lineNumber": 44,
+                    "name": "getAvailableCalendars",
+                    "returnType": "QList<QString>"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "year",
+                            "type": "int"
+                        },
+                        {
+                            "name": "month",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 10,
+                    "lineNumber": 46,
+                    "name": "getGridDaysOfMonth",
+                    "returnType": "QList<QString>"
+                },
+                {
+                    "access": "public",
+                    "index": 11,
+                    "lineNumber": 48,
+                    "name": "getCurrentLocalDateString",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 12,
+                    "lineNumber": 49,
+                    "name": "getCurrentLocalDateTimeString",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "year",
+                            "type": "int"
+                        },
+                        {
+                            "name": "month",
+                            "type": "int"
+                        },
+                        {
+                            "name": "day",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 13,
+                    "lineNumber": 51,
+                    "name": "dateToLocalDateString",
+                    "returnType": "QStringList"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "localeYear",
+                            "type": "int"
+                        },
+                        {
+                            "name": "localeMonth",
+                            "type": "int"
+                        },
+                        {
+                            "name": "localeDay",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 14,
+                    "lineNumber": 53,
+                    "name": "localeToGregorianDate",
+                    "returnType": "QDate"
+                },
+                {
+                    "access": "public",
+                    "index": 15,
+                    "lineNumber": 55,
+                    "name": "shiftAmountForFirstDayOfWeek",
+                    "returnType": "int"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "list",
+                            "type": "QList<QString>"
+                        }
+                    ],
+                    "index": 16,
+                    "lineNumber": 56,
+                    "name": "shiftListForFirstdayOfWeek",
+                    "returnType": "QList<QString>"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 16,
+                    "name": "locale",
+                    "notify": "localeChanged",
+                    "override": false,
+                    "read": "getLocaleText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setLocaleText"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 17,
+                    "name": "calendar",
+                    "notify": "calendarChanged",
+                    "override": false,
+                    "read": "getCalendarText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "virtual": false,
+                    "write": "setCalnedarText"
+                }
+            ],
+            "qualifiedClassName": "QDatePicker",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 60,
+                    "name": "localeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 61,
+                    "name": "calendarChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 63,
+                    "name": "selectedDateChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "qdatepicker.h",
+    "outputRevision": 69
+}

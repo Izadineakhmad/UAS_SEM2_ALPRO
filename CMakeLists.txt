@@ -14,12 +14,24 @@ qt_add_executable(appHotel
 
 qt_add_qml_module(appHotel
     URI Hotel
-    QML_FILES
-        Main.qml
-        SOURCES hotelbackend.h hotelbackend.cpp
-        QML_FILES AdminDashboard.qml
-        QML_FILES UserDashboard.qml
-        QML_FILES LoginView.qml
+    QML_FILES Main.qml
+    SOURCES hotelbackend.h hotelbackend.cpp
+    SOURCES components/QDatePicker/src/qdatepicker.cpp
+    SOURCES components/QDatePicker/src/qdatepicker.h
+    QML_FILES AdminDashboard.qml
+    QML_FILES UserDashboard.qml
+    QML_FILES components/QDatePicker/src/DatePicker.qml
+    QML_FILES LoginView.qml
+    QML_FILES LandingPage.qml
+    RESOURCES images/hotel.jpg
+    RESOURCES images/logo.png
+    RESOURCES images/logonotext.png
+    RESOURCES images/logovertical.png
+    RESOURCES images/standard.jpg
+    RESOURCES images/deluxe.jpg
+    RESOURCES images/suite.jpg
+    QML_FILES RegisterView.qml
+
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

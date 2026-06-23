@@ -26,7 +26,28 @@ namespace _qt_qml_Hotel_UserDashboard_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_Hotel_components_QDatePicker_src_DatePicker_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 namespace _qt_qml_Hotel_LoginView_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_Hotel_LandingPage_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_Hotel_RegisterView_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -50,7 +71,10 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Hotel/Main.qml"), &QmlCacheGeneratedCode::_qt_qml_Hotel_Main_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Hotel/AdminDashboard.qml"), &QmlCacheGeneratedCode::_qt_qml_Hotel_AdminDashboard_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Hotel/UserDashboard.qml"), &QmlCacheGeneratedCode::_qt_qml_Hotel_UserDashboard_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Hotel/components/QDatePicker/src/DatePicker.qml"), &QmlCacheGeneratedCode::_qt_qml_Hotel_components_QDatePicker_src_DatePicker_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Hotel/LoginView.qml"), &QmlCacheGeneratedCode::_qt_qml_Hotel_LoginView_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Hotel/LandingPage.qml"), &QmlCacheGeneratedCode::_qt_qml_Hotel_LandingPage_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/Hotel/RegisterView.qml"), &QmlCacheGeneratedCode::_qt_qml_Hotel_RegisterView_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

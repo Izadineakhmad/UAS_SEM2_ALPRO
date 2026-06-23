@@ -3,7 +3,10 @@
     <file alias="Main.qml">D:/Hotel/Main.qml</file>
     <file alias="AdminDashboard.qml">D:/Hotel/AdminDashboard.qml</file>
     <file alias="UserDashboard.qml">D:/Hotel/UserDashboard.qml</file>
+    <file alias="components/QDatePicker/src/DatePicker.qml">D:/Hotel/components/QDatePicker/src/DatePicker.qml</file>
     <file alias="LoginView.qml">D:/Hotel/LoginView.qml</file>
+    <file alias="LandingPage.qml">D:/Hotel/LandingPage.qml</file>
+    <file alias="RegisterView.qml">D:/Hotel/RegisterView.qml</file>
   </qresource>
 </RCC>
 

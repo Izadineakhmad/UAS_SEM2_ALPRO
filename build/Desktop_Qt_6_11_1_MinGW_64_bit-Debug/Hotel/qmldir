@@ -4,6 +4,9 @@ prefer :/qt/qml/Hotel/
 Main 254.0 Main.qml
 AdminDashboard 254.0 AdminDashboard.qml
 UserDashboard 254.0 UserDashboard.qml
+DatePicker 254.0 components/QDatePicker/src/DatePicker.qml
 LoginView 254.0 LoginView.qml
+LandingPage 254.0 LandingPage.qml
+RegisterView 254.0 RegisterView.qml
 depends QtQuick
 

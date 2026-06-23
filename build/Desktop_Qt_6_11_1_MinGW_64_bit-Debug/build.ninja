@@ -47,7 +47,7 @@ cmake_ninja_workdir = D$:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/
 #############################################
 # Order-only phony target for appHotel
 
-build cmake_object_order_depends_target_appHotel: phony || .qt/rcc/qrc_appHotel_raw_qml_0.cpp .qt/rcc/qrc_qmake_Hotel.cpp .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp.aotstats .rcc/qmlcache/appHotel_LoginView_qml.cpp .rcc/qmlcache/appHotel_LoginView_qml.cpp.aotstats .rcc/qmlcache/appHotel_Main_qml.cpp .rcc/qmlcache/appHotel_Main_qml.cpp.aotstats .rcc/qmlcache/appHotel_UserDashboard_qml.cpp .rcc/qmlcache/appHotel_UserDashboard_qml.cpp.aotstats .rcc/qmlcache/appHotel_qmlcache_loader.cpp Hotel/appHotel.qmltypes appHotel_autogen appHotel_autogen/mocs_compilation.cpp appHotel_autogen/timestamp appHotel_autogen_timestamp_deps appHotel_copy_qml appHotel_copy_res appHotel_qmlimportscan apphotel_qmltyperegistrations.cpp generate_qmlls_build_ini_file meta_types/appHotel_json_file_list.txt meta_types/appHotel_json_file_list.txt.timestamp meta_types/qt6apphotel_metatypes.json meta_types/qt6apphotel_metatypes.json.gen
+build cmake_object_order_depends_target_appHotel: phony || .qt/rcc/qrc_appHotel_raw_qml_0.cpp .qt/rcc/qrc_appHotel_raw_qml_0_extra_qmldirs.cpp .qt/rcc/qrc_appHotel_raw_res_0.cpp .qt/rcc/qrc_qmake_Hotel.cpp .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp.aotstats .rcc/qmlcache/appHotel_LandingPage_qml.cpp .rcc/qmlcache/appHotel_LandingPage_qml.cpp.aotstats .rcc/qmlcache/appHotel_LoginView_qml.cpp .rcc/qmlcache/appHotel_LoginView_qml.cpp.aotstats .rcc/qmlcache/appHotel_Main_qml.cpp .rcc/qmlcache/appHotel_Main_qml.cpp.aotstats .rcc/qmlcache/appHotel_RegisterView_qml.cpp .rcc/qmlcache/appHotel_RegisterView_qml.cpp.aotstats .rcc/qmlcache/appHotel_UserDashboard_qml.cpp .rcc/qmlcache/appHotel_UserDashboard_qml.cpp.aotstats .rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp .rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp.aotstats .rcc/qmlcache/appHotel_qmlcache_loader.cpp Hotel/appHotel.qmltypes appHotel_autogen appHotel_autogen/mocs_compilation.cpp appHotel_autogen/timestamp appHotel_autogen_timestamp_deps appHotel_copy_qml appHotel_copy_res appHotel_qmlimportscan apphotel_qmltyperegistrations.cpp generate_qmlls_build_ini_file meta_types/appHotel_json_file_list.txt meta_types/appHotel_json_file_list.txt.timestamp meta_types/qt6apphotel_metatypes.json meta_types/qt6apphotel_metatypes.json.gen
 
 build CMakeFiles/appHotel.dir/appHotel_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__appHotel_unscanned_Debug D$:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/appHotel_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_appHotel
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_DEBUG -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -89,6 +89,14 @@ build CMakeFiles/appHotel.dir/hotelbackend.cpp.obj: CXX_COMPILER__appHotel_unsca
   OBJECT_DIR = CMakeFiles\appHotel.dir
   OBJECT_FILE_DIR = CMakeFiles\appHotel.dir
 
+build CMakeFiles/appHotel.dir/components/QDatePicker/src/qdatepicker.cpp.obj: CXX_COMPILER__appHotel_unscanned_Debug D$:/Hotel/components/QDatePicker/src/qdatepicker.cpp || cmake_object_order_depends_target_appHotel
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_DEBUG -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\appHotel.dir\components\QDatePicker\src\qdatepicker.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/appHotel_autogen/include -ID:/Hotel -isystem E:/Qt/6.11.1/mingw_64/include/QtQml -isystem E:/Qt/6.11.1/mingw_64/include -isystem E:/Qt/6.11.1/mingw_64/include/QtCore -isystem E:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem E:/Qt/6.11.1/mingw_64/include/QtQmlIntegration -isystem E:/Qt/6.11.1/mingw_64/include/QtNetwork -isystem E:/Qt/6.11.1/mingw_64/include/QtQuick -isystem E:/Qt/6.11.1/mingw_64/include/QtGui -isystem E:/Qt/6.11.1/mingw_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles\appHotel.dir
+  OBJECT_FILE_DIR = CMakeFiles\appHotel.dir\components\QDatePicker\src
+
 build CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_qmlcache_loader.cpp.obj: CXX_COMPILER__appHotel_unscanned_Debug D$:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_qmlcache_loader.cpp || cmake_object_order_depends_target_appHotel
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_DEBUG -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\appHotel.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\appHotel_qmlcache_loader.cpp.obj.d
@@ -121,9 +129,33 @@ build CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qm
   OBJECT_DIR = CMakeFiles\appHotel.dir
   OBJECT_FILE_DIR = CMakeFiles\appHotel.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache
 
+build CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp.obj: CXX_COMPILER__appHotel_unscanned_Debug D$:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp || cmake_object_order_depends_target_appHotel
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_DEBUG -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\appHotel.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\appHotel_components\QDatePicker\src\DatePicker_qml.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/appHotel_autogen/include -ID:/Hotel -isystem E:/Qt/6.11.1/mingw_64/include/QtQml -isystem E:/Qt/6.11.1/mingw_64/include -isystem E:/Qt/6.11.1/mingw_64/include/QtCore -isystem E:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem E:/Qt/6.11.1/mingw_64/include/QtQmlIntegration -isystem E:/Qt/6.11.1/mingw_64/include/QtNetwork -isystem E:/Qt/6.11.1/mingw_64/include/QtQuick -isystem E:/Qt/6.11.1/mingw_64/include/QtGui -isystem E:/Qt/6.11.1/mingw_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles\appHotel.dir
+  OBJECT_FILE_DIR = CMakeFiles\appHotel.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\appHotel_components\QDatePicker\src
+
 build CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_LoginView_qml.cpp.obj: CXX_COMPILER__appHotel_unscanned_Debug D$:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_LoginView_qml.cpp || cmake_object_order_depends_target_appHotel
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_DEBUG -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\appHotel.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\appHotel_LoginView_qml.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/appHotel_autogen/include -ID:/Hotel -isystem E:/Qt/6.11.1/mingw_64/include/QtQml -isystem E:/Qt/6.11.1/mingw_64/include -isystem E:/Qt/6.11.1/mingw_64/include/QtCore -isystem E:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem E:/Qt/6.11.1/mingw_64/include/QtQmlIntegration -isystem E:/Qt/6.11.1/mingw_64/include/QtNetwork -isystem E:/Qt/6.11.1/mingw_64/include/QtQuick -isystem E:/Qt/6.11.1/mingw_64/include/QtGui -isystem E:/Qt/6.11.1/mingw_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles\appHotel.dir
+  OBJECT_FILE_DIR = CMakeFiles\appHotel.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache
+
+build CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_LandingPage_qml.cpp.obj: CXX_COMPILER__appHotel_unscanned_Debug D$:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_LandingPage_qml.cpp || cmake_object_order_depends_target_appHotel
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_DEBUG -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\appHotel.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\appHotel_LandingPage_qml.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/appHotel_autogen/include -ID:/Hotel -isystem E:/Qt/6.11.1/mingw_64/include/QtQml -isystem E:/Qt/6.11.1/mingw_64/include -isystem E:/Qt/6.11.1/mingw_64/include/QtCore -isystem E:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem E:/Qt/6.11.1/mingw_64/include/QtQmlIntegration -isystem E:/Qt/6.11.1/mingw_64/include/QtNetwork -isystem E:/Qt/6.11.1/mingw_64/include/QtQuick -isystem E:/Qt/6.11.1/mingw_64/include/QtGui -isystem E:/Qt/6.11.1/mingw_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles\appHotel.dir
+  OBJECT_FILE_DIR = CMakeFiles\appHotel.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache
+
+build CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_RegisterView_qml.cpp.obj: CXX_COMPILER__appHotel_unscanned_Debug D$:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_RegisterView_qml.cpp || cmake_object_order_depends_target_appHotel
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_DEBUG -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\appHotel.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.rcc\qmlcache\appHotel_RegisterView_qml.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -ID:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/appHotel_autogen/include -ID:/Hotel -isystem E:/Qt/6.11.1/mingw_64/include/QtQml -isystem E:/Qt/6.11.1/mingw_64/include -isystem E:/Qt/6.11.1/mingw_64/include/QtCore -isystem E:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem E:/Qt/6.11.1/mingw_64/include/QtQmlIntegration -isystem E:/Qt/6.11.1/mingw_64/include/QtNetwork -isystem E:/Qt/6.11.1/mingw_64/include/QtQuick -isystem E:/Qt/6.11.1/mingw_64/include/QtGui -isystem E:/Qt/6.11.1/mingw_64/include/QtOpenGL
   OBJECT_DIR = CMakeFiles\appHotel.dir
@@ -137,6 +169,22 @@ build CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc
   OBJECT_DIR = CMakeFiles\appHotel.dir
   OBJECT_FILE_DIR = CMakeFiles\appHotel.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc
 
+build CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appHotel_raw_res_0.cpp.obj: CXX_COMPILER__appHotel_unscanned_Debug D$:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appHotel_raw_res_0.cpp || cmake_object_order_depends_target_appHotel
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_DEBUG -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\appHotel.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_appHotel_raw_res_0.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/appHotel_autogen/include -ID:/Hotel -isystem E:/Qt/6.11.1/mingw_64/include/QtQml -isystem E:/Qt/6.11.1/mingw_64/include -isystem E:/Qt/6.11.1/mingw_64/include/QtCore -isystem E:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem E:/Qt/6.11.1/mingw_64/include/QtQmlIntegration -isystem E:/Qt/6.11.1/mingw_64/include/QtNetwork -isystem E:/Qt/6.11.1/mingw_64/include/QtQuick -isystem E:/Qt/6.11.1/mingw_64/include/QtGui -isystem E:/Qt/6.11.1/mingw_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles\appHotel.dir
+  OBJECT_FILE_DIR = CMakeFiles\appHotel.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc
+
+build CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appHotel_raw_qml_0_extra_qmldirs.cpp.obj: CXX_COMPILER__appHotel_unscanned_Debug D$:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appHotel_raw_qml_0_extra_qmldirs.cpp || cmake_object_order_depends_target_appHotel
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_DEBUG -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\appHotel.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc\qrc_appHotel_raw_qml_0_extra_qmldirs.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/appHotel_autogen/include -ID:/Hotel -isystem E:/Qt/6.11.1/mingw_64/include/QtQml -isystem E:/Qt/6.11.1/mingw_64/include -isystem E:/Qt/6.11.1/mingw_64/include/QtCore -isystem E:/Qt/6.11.1/mingw_64/mkspecs/win32-g++ -isystem E:/Qt/6.11.1/mingw_64/include/QtQmlIntegration -isystem E:/Qt/6.11.1/mingw_64/include/QtNetwork -isystem E:/Qt/6.11.1/mingw_64/include/QtQuick -isystem E:/Qt/6.11.1/mingw_64/include/QtGui -isystem E:/Qt/6.11.1/mingw_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles\appHotel.dir
+  OBJECT_FILE_DIR = CMakeFiles\appHotel.dir\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\rcc
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target appHotel
@@ -145,7 +193,7 @@ build CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc
 #############################################
 # Link the executable appHotel.exe
 
-build appHotel.exe: CXX_EXECUTABLE_LINKER__appHotel_Debug CMakeFiles/appHotel.dir/appHotel_autogen/mocs_compilation.cpp.obj CMakeFiles/appHotel.dir/main.cpp.obj CMakeFiles/appHotel.dir/apphotel_qmltyperegistrations.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Hotel.cpp.obj CMakeFiles/appHotel.dir/hotelbackend.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_qmlcache_loader.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_Main_qml.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_AdminDashboard_qml.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_UserDashboard_qml.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_LoginView_qml.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appHotel_raw_qml_0.cpp.obj | E$:/Qt/6.11.1/mingw_64/lib/libQt6Quick.a E$:/Qt/6.11.1/mingw_64/lib/libQt6OpenGL.a E$:/Qt/6.11.1/mingw_64/lib/libQt6Gui.a E$:/Qt/6.11.1/mingw_64/lib/libQt6Qml.a E$:/Qt/6.11.1/mingw_64/lib/libQt6Network.a E$:/Qt/6.11.1/mingw_64/lib/libQt6Core.a E$:/Qt/6.11.1/mingw_64/lib/libQt6EntryPoint.a appHotel.exe.manifest || appHotel_autogen appHotel_autogen_timestamp_deps appHotel_copy_qml appHotel_copy_res appHotel_qmlimportscan generate_qmlls_build_ini_file
+build appHotel.exe: CXX_EXECUTABLE_LINKER__appHotel_Debug CMakeFiles/appHotel.dir/appHotel_autogen/mocs_compilation.cpp.obj CMakeFiles/appHotel.dir/main.cpp.obj CMakeFiles/appHotel.dir/apphotel_qmltyperegistrations.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_Hotel.cpp.obj CMakeFiles/appHotel.dir/hotelbackend.cpp.obj CMakeFiles/appHotel.dir/components/QDatePicker/src/qdatepicker.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_qmlcache_loader.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_Main_qml.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_AdminDashboard_qml.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_UserDashboard_qml.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_LoginView_qml.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_LandingPage_qml.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_RegisterView_qml.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appHotel_raw_qml_0.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appHotel_raw_res_0.cpp.obj CMakeFiles/appHotel.dir/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appHotel_raw_qml_0_extra_qmldirs.cpp.obj | E$:/Qt/6.11.1/mingw_64/lib/libQt6Quick.a E$:/Qt/6.11.1/mingw_64/lib/libQt6OpenGL.a E$:/Qt/6.11.1/mingw_64/lib/libQt6Gui.a E$:/Qt/6.11.1/mingw_64/lib/libQt6Qml.a E$:/Qt/6.11.1/mingw_64/lib/libQt6Network.a E$:/Qt/6.11.1/mingw_64/lib/libQt6Core.a E$:/Qt/6.11.1/mingw_64/lib/libQt6EntryPoint.a appHotel.exe.manifest || appHotel_autogen appHotel_autogen_timestamp_deps appHotel_copy_qml appHotel_copy_res appHotel_qmlimportscan generate_qmlls_build_ini_file
   FLAGS = -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = E:/Qt/6.11.1/mingw_64/lib/libQt6Quick.a  E:/Qt/6.11.1/mingw_64/lib/libQt6OpenGL.a  E:/Qt/6.11.1/mingw_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -luser32  E:/Qt/6.11.1/mingw_64/lib/libQt6Qml.a  E:/Qt/6.11.1/mingw_64/lib/libQt6Network.a  E:/Qt/6.11.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  E:/Qt/6.11.1/mingw_64/lib/libQt6EntryPoint.a  -lws2_32  -lshell32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -239,13 +287,13 @@ build generate_qmlls_build_ini_file: phony CMakeFiles/generate_qmlls_build_ini_f
 #############################################
 # Utility command for module_appHotel_aotstats_target
 
-build module_appHotel_aotstats_target: phony CMakeFiles/module_appHotel_aotstats_target .rcc/qmlcache/module_appHotel.aotstats .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp.aotstats .rcc/qmlcache/appHotel_LoginView_qml.cpp .rcc/qmlcache/appHotel_LoginView_qml.cpp.aotstats .rcc/qmlcache/appHotel_Main_qml.cpp .rcc/qmlcache/appHotel_Main_qml.cpp.aotstats .rcc/qmlcache/appHotel_UserDashboard_qml.cpp .rcc/qmlcache/appHotel_UserDashboard_qml.cpp.aotstats apphotel_qmltyperegistrations.cpp Hotel/appHotel.qmltypes appHotel_qmltyperegistration
+build module_appHotel_aotstats_target: phony CMakeFiles/module_appHotel_aotstats_target .rcc/qmlcache/module_appHotel.aotstats .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp.aotstats .rcc/qmlcache/appHotel_LandingPage_qml.cpp .rcc/qmlcache/appHotel_LandingPage_qml.cpp.aotstats .rcc/qmlcache/appHotel_LoginView_qml.cpp .rcc/qmlcache/appHotel_LoginView_qml.cpp.aotstats .rcc/qmlcache/appHotel_Main_qml.cpp .rcc/qmlcache/appHotel_Main_qml.cpp.aotstats .rcc/qmlcache/appHotel_RegisterView_qml.cpp .rcc/qmlcache/appHotel_RegisterView_qml.cpp.aotstats .rcc/qmlcache/appHotel_UserDashboard_qml.cpp .rcc/qmlcache/appHotel_UserDashboard_qml.cpp.aotstats .rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp .rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp.aotstats apphotel_qmltyperegistrations.cpp Hotel/appHotel.qmltypes appHotel_qmltyperegistration
 
 
 #############################################
 # Utility command for all_aotstats
 
-build all_aotstats: phony CMakeFiles/all_aotstats .rcc/qmlcache/all_aotstats.aotstats .rcc/qmlcache/all_aotstats.txt .rcc/qmlcache/module_appHotel.aotstats .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp.aotstats .rcc/qmlcache/appHotel_LoginView_qml.cpp .rcc/qmlcache/appHotel_LoginView_qml.cpp.aotstats .rcc/qmlcache/appHotel_Main_qml.cpp .rcc/qmlcache/appHotel_Main_qml.cpp.aotstats .rcc/qmlcache/appHotel_UserDashboard_qml.cpp .rcc/qmlcache/appHotel_UserDashboard_qml.cpp.aotstats apphotel_qmltyperegistrations.cpp Hotel/appHotel.qmltypes module_appHotel_aotstats_target
+build all_aotstats: phony CMakeFiles/all_aotstats .rcc/qmlcache/all_aotstats.aotstats .rcc/qmlcache/all_aotstats.txt .rcc/qmlcache/module_appHotel.aotstats .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp.aotstats .rcc/qmlcache/appHotel_LandingPage_qml.cpp .rcc/qmlcache/appHotel_LandingPage_qml.cpp.aotstats .rcc/qmlcache/appHotel_LoginView_qml.cpp .rcc/qmlcache/appHotel_LoginView_qml.cpp.aotstats .rcc/qmlcache/appHotel_Main_qml.cpp .rcc/qmlcache/appHotel_Main_qml.cpp.aotstats .rcc/qmlcache/appHotel_RegisterView_qml.cpp .rcc/qmlcache/appHotel_RegisterView_qml.cpp.aotstats .rcc/qmlcache/appHotel_UserDashboard_qml.cpp .rcc/qmlcache/appHotel_UserDashboard_qml.cpp.aotstats .rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp .rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp.aotstats apphotel_qmltyperegistrations.cpp Hotel/appHotel.qmltypes module_appHotel_aotstats_target
 
 
 #############################################
@@ -362,7 +410,7 @@ build .qt/rcc/qrc_qmake_Hotel.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_qmake_Hote
 #############################################
 # Custom command for .rcc\qmlcache\appHotel_qmlcache_loader.cpp
 
-build .rcc/qmlcache/appHotel_qmlcache_loader.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_qmlcache_loader.cpp: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe .rcc/qmlcache/appHotel_qml_loader_file_list.rsp .qt/rcc/qmake_Hotel.qrc .qt/rcc/appHotel_raw_qml_0.qrc || appHotel_autogen appHotel_autogen_timestamp_deps appHotel_copy_qml appHotel_copy_res appHotel_qmlimportscan generate_qmlls_build_ini_file
+build .rcc/qmlcache/appHotel_qmlcache_loader.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_qmlcache_loader.cpp: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe .rcc/qmlcache/appHotel_qml_loader_file_list.rsp .qt/rcc/qmake_Hotel.qrc .qt/rcc/appHotel_raw_qml_0.qrc .qt/rcc/appHotel_raw_res_0.qrc .qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc || appHotel_autogen appHotel_autogen_timestamp_deps appHotel_copy_qml appHotel_copy_res appHotel_qmlimportscan generate_qmlls_build_ini_file
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug && D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat E:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --resource-name qmlcache_appHotel -o D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_qmlcache_loader.cpp @D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_qml_loader_file_list.rsp"
   DESC = Generating .rcc/qmlcache/appHotel_qmlcache_loader.cpp
   restat = 1
@@ -371,8 +419,8 @@ build .rcc/qmlcache/appHotel_qmlcache_loader.cpp | ${cmake_ninja_workdir}.rcc/qm
 #############################################
 # Custom command for .rcc\qmlcache\appHotel_Main_qml.cpp
 
-build .rcc/qmlcache/appHotel_Main_qml.cpp .rcc/qmlcache/appHotel_Main_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_Main_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_Main_qml.cpp.aotstats: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe D$:/Hotel/Main.qml .qt/rcc/qmake_Hotel.qrc .qt/rcc/appHotel_raw_qml_0.qrc Hotel/appHotel.qmltypes Hotel/qmldir
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug && E:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache && D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat E:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Hotel/Main.qml -I D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I E:/Qt/6.11.1/mingw_64/qml -i D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Hotel/qmldir --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Hotel.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0.qrc --dump-aot-stats --module-id=Hotel(appHotel) -o D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_Main_qml.cpp D:/Hotel/Main.qml"
+build .rcc/qmlcache/appHotel_Main_qml.cpp .rcc/qmlcache/appHotel_Main_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_Main_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_Main_qml.cpp.aotstats: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe D$:/Hotel/Main.qml .qt/rcc/qmake_Hotel.qrc .qt/rcc/appHotel_raw_qml_0.qrc .qt/rcc/appHotel_raw_res_0.qrc .qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc Hotel/appHotel.qmltypes Hotel/qmldir
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug && E:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache && D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat E:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Hotel/Main.qml -I D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I E:/Qt/6.11.1/mingw_64/qml -i D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Hotel/qmldir --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Hotel.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_res_0.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Hotel(appHotel) -o D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_Main_qml.cpp D:/Hotel/Main.qml"
   DESC = Generating .rcc/qmlcache/appHotel_Main_qml.cpp, .rcc/qmlcache/appHotel_Main_qml.cpp.aotstats
   restat = 1
 
@@ -380,8 +428,8 @@ build .rcc/qmlcache/appHotel_Main_qml.cpp .rcc/qmlcache/appHotel_Main_qml.cpp.ao
 #############################################
 # Custom command for .rcc\qmlcache\appHotel_AdminDashboard_qml.cpp
 
-build .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_AdminDashboard_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_AdminDashboard_qml.cpp.aotstats: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe D$:/Hotel/AdminDashboard.qml .qt/rcc/qmake_Hotel.qrc .qt/rcc/appHotel_raw_qml_0.qrc Hotel/appHotel.qmltypes Hotel/qmldir
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug && E:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache && D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat E:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Hotel/AdminDashboard.qml -I D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I E:/Qt/6.11.1/mingw_64/qml -i D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Hotel/qmldir --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Hotel.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0.qrc --dump-aot-stats --module-id=Hotel(appHotel) -o D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_AdminDashboard_qml.cpp D:/Hotel/AdminDashboard.qml"
+build .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_AdminDashboard_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_AdminDashboard_qml.cpp.aotstats: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe D$:/Hotel/AdminDashboard.qml .qt/rcc/qmake_Hotel.qrc .qt/rcc/appHotel_raw_qml_0.qrc .qt/rcc/appHotel_raw_res_0.qrc .qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc Hotel/appHotel.qmltypes Hotel/qmldir
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug && E:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache && D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat E:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Hotel/AdminDashboard.qml -I D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I E:/Qt/6.11.1/mingw_64/qml -i D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Hotel/qmldir --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Hotel.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_res_0.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Hotel(appHotel) -o D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_AdminDashboard_qml.cpp D:/Hotel/AdminDashboard.qml"
   DESC = Generating .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp, .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp.aotstats
   restat = 1
 
@@ -389,27 +437,72 @@ build .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp .rcc/qmlcache/appHotel_Admin
 #############################################
 # Custom command for .rcc\qmlcache\appHotel_UserDashboard_qml.cpp
 
-build .rcc/qmlcache/appHotel_UserDashboard_qml.cpp .rcc/qmlcache/appHotel_UserDashboard_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_UserDashboard_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_UserDashboard_qml.cpp.aotstats: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe D$:/Hotel/UserDashboard.qml .qt/rcc/qmake_Hotel.qrc .qt/rcc/appHotel_raw_qml_0.qrc Hotel/appHotel.qmltypes Hotel/qmldir
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug && E:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache && D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat E:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Hotel/UserDashboard.qml -I D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I E:/Qt/6.11.1/mingw_64/qml -i D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Hotel/qmldir --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Hotel.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0.qrc --dump-aot-stats --module-id=Hotel(appHotel) -o D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_UserDashboard_qml.cpp D:/Hotel/UserDashboard.qml"
+build .rcc/qmlcache/appHotel_UserDashboard_qml.cpp .rcc/qmlcache/appHotel_UserDashboard_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_UserDashboard_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_UserDashboard_qml.cpp.aotstats: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe D$:/Hotel/UserDashboard.qml .qt/rcc/qmake_Hotel.qrc .qt/rcc/appHotel_raw_qml_0.qrc .qt/rcc/appHotel_raw_res_0.qrc .qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc Hotel/appHotel.qmltypes Hotel/qmldir
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug && E:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache && D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat E:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Hotel/UserDashboard.qml -I D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I E:/Qt/6.11.1/mingw_64/qml -i D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Hotel/qmldir --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Hotel.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_res_0.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Hotel(appHotel) -o D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_UserDashboard_qml.cpp D:/Hotel/UserDashboard.qml"
   DESC = Generating .rcc/qmlcache/appHotel_UserDashboard_qml.cpp, .rcc/qmlcache/appHotel_UserDashboard_qml.cpp.aotstats
+  restat = 1
+
+
+#############################################
+# Custom command for .rcc\qmlcache\appHotel_components\QDatePicker\src\DatePicker_qml.cpp
+
+build .rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp .rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp.aotstats: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe D$:/Hotel/components/QDatePicker/src/DatePicker.qml .qt/rcc/qmake_Hotel.qrc .qt/rcc/appHotel_raw_qml_0.qrc .qt/rcc/appHotel_raw_res_0.qrc .qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc Hotel/appHotel.qmltypes Hotel/qmldir
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug && E:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_components/QDatePicker/src && D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat E:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Hotel/components/QDatePicker/src/DatePicker.qml -I D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I E:/Qt/6.11.1/mingw_64/qml -i D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Hotel/qmldir --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Hotel.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_res_0.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Hotel(appHotel) -o D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp D:/Hotel/components/QDatePicker/src/DatePicker.qml"
+  DESC = Generating .rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp, .rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp.aotstats
   restat = 1
 
 
 #############################################
 # Custom command for .rcc\qmlcache\appHotel_LoginView_qml.cpp
 
-build .rcc/qmlcache/appHotel_LoginView_qml.cpp .rcc/qmlcache/appHotel_LoginView_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_LoginView_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_LoginView_qml.cpp.aotstats: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe D$:/Hotel/LoginView.qml .qt/rcc/qmake_Hotel.qrc .qt/rcc/appHotel_raw_qml_0.qrc Hotel/appHotel.qmltypes Hotel/qmldir
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug && E:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache && D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat E:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Hotel/LoginView.qml -I D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I E:/Qt/6.11.1/mingw_64/qml -i D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Hotel/qmldir --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Hotel.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0.qrc --dump-aot-stats --module-id=Hotel(appHotel) -o D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_LoginView_qml.cpp D:/Hotel/LoginView.qml"
+build .rcc/qmlcache/appHotel_LoginView_qml.cpp .rcc/qmlcache/appHotel_LoginView_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_LoginView_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_LoginView_qml.cpp.aotstats: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe D$:/Hotel/LoginView.qml .qt/rcc/qmake_Hotel.qrc .qt/rcc/appHotel_raw_qml_0.qrc .qt/rcc/appHotel_raw_res_0.qrc .qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc Hotel/appHotel.qmltypes Hotel/qmldir
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug && E:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache && D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat E:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Hotel/LoginView.qml -I D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I E:/Qt/6.11.1/mingw_64/qml -i D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Hotel/qmldir --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Hotel.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_res_0.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Hotel(appHotel) -o D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_LoginView_qml.cpp D:/Hotel/LoginView.qml"
   DESC = Generating .rcc/qmlcache/appHotel_LoginView_qml.cpp, .rcc/qmlcache/appHotel_LoginView_qml.cpp.aotstats
+  restat = 1
+
+
+#############################################
+# Custom command for .rcc\qmlcache\appHotel_LandingPage_qml.cpp
+
+build .rcc/qmlcache/appHotel_LandingPage_qml.cpp .rcc/qmlcache/appHotel_LandingPage_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_LandingPage_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_LandingPage_qml.cpp.aotstats: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe D$:/Hotel/LandingPage.qml .qt/rcc/qmake_Hotel.qrc .qt/rcc/appHotel_raw_qml_0.qrc .qt/rcc/appHotel_raw_res_0.qrc .qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc Hotel/appHotel.qmltypes Hotel/qmldir
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug && E:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache && D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat E:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Hotel/LandingPage.qml -I D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I E:/Qt/6.11.1/mingw_64/qml -i D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Hotel/qmldir --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Hotel.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_res_0.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Hotel(appHotel) -o D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_LandingPage_qml.cpp D:/Hotel/LandingPage.qml"
+  DESC = Generating .rcc/qmlcache/appHotel_LandingPage_qml.cpp, .rcc/qmlcache/appHotel_LandingPage_qml.cpp.aotstats
+  restat = 1
+
+
+#############################################
+# Custom command for .rcc\qmlcache\appHotel_RegisterView_qml.cpp
+
+build .rcc/qmlcache/appHotel_RegisterView_qml.cpp .rcc/qmlcache/appHotel_RegisterView_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_RegisterView_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appHotel_RegisterView_qml.cpp.aotstats: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe D$:/Hotel/RegisterView.qml .qt/rcc/qmake_Hotel.qrc .qt/rcc/appHotel_raw_qml_0.qrc .qt/rcc/appHotel_raw_res_0.qrc .qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc Hotel/appHotel.qmltypes Hotel/qmldir
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug && E:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache && D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat E:/Qt/6.11.1/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/Hotel/RegisterView.qml -I D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug -I E:/Qt/6.11.1/mingw_64/qml -i D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Hotel/qmldir --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qmake_Hotel.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_res_0.qrc --resource D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats --module-id=Hotel(appHotel) -o D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/appHotel_RegisterView_qml.cpp D:/Hotel/RegisterView.qml"
+  DESC = Generating .rcc/qmlcache/appHotel_RegisterView_qml.cpp, .rcc/qmlcache/appHotel_RegisterView_qml.cpp.aotstats
   restat = 1
 
 
 #############################################
 # Custom command for .qt\rcc\qrc_appHotel_raw_qml_0.cpp
 
-build .qt/rcc/qrc_appHotel_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appHotel_raw_qml_0.cpp: CUSTOM_COMMAND D$:/Hotel/Main.qml D$:/Hotel/AdminDashboard.qml D$:/Hotel/UserDashboard.qml D$:/Hotel/LoginView.qml .qt/rcc/appHotel_raw_qml_0.qrc E$:/Qt/6.11.1/mingw_64/bin/rcc.exe || appHotel_autogen appHotel_autogen_timestamp_deps appHotel_copy_qml appHotel_copy_res appHotel_qmlimportscan generate_qmlls_build_ini_file
+build .qt/rcc/qrc_appHotel_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appHotel_raw_qml_0.cpp: CUSTOM_COMMAND D$:/Hotel/Main.qml D$:/Hotel/AdminDashboard.qml D$:/Hotel/UserDashboard.qml D$:/Hotel/components/QDatePicker/src/DatePicker.qml D$:/Hotel/LoginView.qml D$:/Hotel/LandingPage.qml D$:/Hotel/RegisterView.qml .qt/rcc/appHotel_raw_qml_0.qrc E$:/Qt/6.11.1/mingw_64/bin/rcc.exe || appHotel_autogen appHotel_autogen_timestamp_deps appHotel_copy_qml appHotel_copy_res appHotel_qmlimportscan generate_qmlls_build_ini_file
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug && E:\Qt\6.11.1\mingw_64\bin\rcc.exe --output D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appHotel_raw_qml_0.cpp --name appHotel_raw_qml_0 D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0.qrc --no-zstd"
   DESC = Running rcc for resource appHotel_raw_qml_0
+  restat = 1
+
+
+#############################################
+# Custom command for .qt\rcc\qrc_appHotel_raw_res_0.cpp
+
+build .qt/rcc/qrc_appHotel_raw_res_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appHotel_raw_res_0.cpp: CUSTOM_COMMAND D$:/Hotel/images/hotel.jpg D$:/Hotel/images/logo.png D$:/Hotel/images/logonotext.png D$:/Hotel/images/logovertical.png D$:/Hotel/images/standard.jpg D$:/Hotel/images/deluxe.jpg D$:/Hotel/images/suite.jpg .qt/rcc/appHotel_raw_res_0.qrc E$:/Qt/6.11.1/mingw_64/bin/rcc.exe || appHotel_autogen appHotel_autogen_timestamp_deps appHotel_copy_qml appHotel_copy_res appHotel_qmlimportscan generate_qmlls_build_ini_file
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug && E:\Qt\6.11.1\mingw_64\bin\rcc.exe --output D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appHotel_raw_res_0.cpp --name appHotel_raw_res_0 D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_res_0.qrc --no-zstd"
+  DESC = Running rcc for resource appHotel_raw_res_0
+  restat = 1
+
+
+#############################################
+# Custom command for .qt\rcc\qrc_appHotel_raw_qml_0_extra_qmldirs.cpp
+
+build .qt/rcc/qrc_appHotel_raw_qml_0_extra_qmldirs.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appHotel_raw_qml_0_extra_qmldirs.cpp: CUSTOM_COMMAND Hotel/components/QDatePicker/src/qmldir .qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc E$:/Qt/6.11.1/mingw_64/bin/rcc.exe || appHotel_autogen appHotel_autogen_timestamp_deps appHotel_copy_qml appHotel_copy_res appHotel_qmlimportscan generate_qmlls_build_ini_file
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug && E:\Qt\6.11.1\mingw_64\bin\rcc.exe --output D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/qrc_appHotel_raw_qml_0_extra_qmldirs.cpp --name appHotel_raw_qml_0_extra_qmldirs D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc --no-zstd"
+  DESC = Running rcc for resource appHotel_raw_qml_0_extra_qmldirs
   restat = 1
 
 
@@ -442,21 +535,21 @@ build CMakeFiles/appHotel_qmltyperegistration | ${cmake_ninja_workdir}CMakeFiles
 #############################################
 # Custom command for CMakeFiles\appHotel_qmllint
 
-build CMakeFiles/appHotel_qmllint | ${cmake_ninja_workdir}CMakeFiles/appHotel_qmllint: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmllint.exe D$:/Hotel/Main.qml D$:/Hotel/AdminDashboard.qml D$:/Hotel/UserDashboard.qml D$:/Hotel/LoginView.qml .rcc/qmllint/appHotel.rsp || all_qmltyperegistrations appHotel_qmltyperegistration
+build CMakeFiles/appHotel_qmllint | ${cmake_ninja_workdir}CMakeFiles/appHotel_qmllint: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmllint.exe D$:/Hotel/Main.qml D$:/Hotel/AdminDashboard.qml D$:/Hotel/UserDashboard.qml D$:/Hotel/components/QDatePicker/src/DatePicker.qml D$:/Hotel/LoginView.qml D$:/Hotel/LandingPage.qml D$:/Hotel/RegisterView.qml .rcc/qmllint/appHotel.rsp || all_qmltyperegistrations appHotel_qmltyperegistration
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel && D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat E:/Qt/6.11.1/mingw_64/bin/qmllint.exe @D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmllint/appHotel.rsp"
 
 
 #############################################
 # Custom command for CMakeFiles\appHotel_qmllint_json
 
-build CMakeFiles/appHotel_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appHotel_qmllint_json: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmllint.exe D$:/Hotel/Main.qml D$:/Hotel/AdminDashboard.qml D$:/Hotel/UserDashboard.qml D$:/Hotel/LoginView.qml .rcc/qmllint/appHotel_json.rsp || all_qmltyperegistrations appHotel_qmltyperegistration
+build CMakeFiles/appHotel_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appHotel_qmllint_json: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmllint.exe D$:/Hotel/Main.qml D$:/Hotel/AdminDashboard.qml D$:/Hotel/UserDashboard.qml D$:/Hotel/components/QDatePicker/src/DatePicker.qml D$:/Hotel/LoginView.qml D$:/Hotel/LandingPage.qml D$:/Hotel/RegisterView.qml .rcc/qmllint/appHotel_json.rsp || all_qmltyperegistrations appHotel_qmltyperegistration
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel && D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat E:/Qt/6.11.1/mingw_64/bin/qmllint.exe @D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmllint/appHotel_json.rsp"
 
 
 #############################################
 # Custom command for CMakeFiles\appHotel_qmllint_module
 
-build CMakeFiles/appHotel_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appHotel_qmllint_module: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmllint.exe D$:/Hotel/Main.qml D$:/Hotel/AdminDashboard.qml D$:/Hotel/UserDashboard.qml D$:/Hotel/LoginView.qml .rcc/qmllint/appHotel_module.rsp || all_qmltyperegistrations appHotel_qmltyperegistration
+build CMakeFiles/appHotel_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appHotel_qmllint_module: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmllint.exe D$:/Hotel/Main.qml D$:/Hotel/AdminDashboard.qml D$:/Hotel/UserDashboard.qml D$:/Hotel/components/QDatePicker/src/DatePicker.qml D$:/Hotel/LoginView.qml D$:/Hotel/LandingPage.qml D$:/Hotel/RegisterView.qml .rcc/qmllint/appHotel_module.rsp || all_qmltyperegistrations appHotel_qmltyperegistration
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel && D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat E:/Qt/6.11.1/mingw_64/bin/qmllint.exe @D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmllint/appHotel_module.rsp"
 
 
@@ -492,7 +585,7 @@ build CMakeFiles/appHotel_copy_qml | ${cmake_ninja_workdir}CMakeFiles/appHotel_c
 #############################################
 # Custom command for .qt\appHotel_qml.txt
 
-build .qt/appHotel_qml.txt | ${cmake_ninja_workdir}.qt/appHotel_qml.txt: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake D$:/Hotel/Main.qml D$:/Hotel/AdminDashboard.qml D$:/Hotel/UserDashboard.qml D$:/Hotel/LoginView.qml
+build .qt/appHotel_qml.txt | ${cmake_ninja_workdir}.qt/appHotel_qml.txt: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake D$:/Hotel/Main.qml D$:/Hotel/AdminDashboard.qml D$:/Hotel/UserDashboard.qml D$:/Hotel/components/QDatePicker/src/DatePicker.qml D$:/Hotel/LoginView.qml D$:/Hotel/LandingPage.qml D$:/Hotel/RegisterView.qml
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug && E:\Qt\Tools\CMake_64\bin\cmake.exe -DFILES_INFO_PATH=D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/appHotel_qml.cmake -P E:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake"
   DESC = Copying appHotel qml sources into build dir
   restat = 1
@@ -507,7 +600,7 @@ build CMakeFiles/appHotel_copy_res | ${cmake_ninja_workdir}CMakeFiles/appHotel_c
 #############################################
 # Custom command for .qt\appHotel_res.txt
 
-build .qt/appHotel_res.txt | ${cmake_ninja_workdir}.qt/appHotel_res.txt: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
+build .qt/appHotel_res.txt | ${cmake_ninja_workdir}.qt/appHotel_res.txt: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake D$:/Hotel/images/hotel.jpg D$:/Hotel/images/logo.png D$:/Hotel/images/logonotext.png D$:/Hotel/images/logovertical.png D$:/Hotel/images/standard.jpg D$:/Hotel/images/deluxe.jpg D$:/Hotel/images/suite.jpg
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug && E:\Qt\Tools\CMake_64\bin\cmake.exe -DFILES_INFO_PATH=D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/appHotel_res.cmake -P E:/Qt/6.11.1/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake"
   DESC = Copying appHotel qml resources into build dir
   restat = 1
@@ -537,7 +630,7 @@ build CMakeFiles/module_appHotel_aotstats_target | ${cmake_ninja_workdir}CMakeFi
 #############################################
 # Custom command for .rcc\qmlcache\module_appHotel.aotstats
 
-build .rcc/qmlcache/module_appHotel.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/module_appHotel.aotstats: CUSTOM_COMMAND .rcc/qmlcache/appHotel_Main_qml.cpp.aotstats .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp.aotstats .rcc/qmlcache/appHotel_UserDashboard_qml.cpp.aotstats .rcc/qmlcache/appHotel_LoginView_qml.cpp.aotstats .rcc/qmlcache/module_appHotel.aotstatslist || appHotel_qmltyperegistration
+build .rcc/qmlcache/module_appHotel.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/module_appHotel.aotstats: CUSTOM_COMMAND .rcc/qmlcache/appHotel_Main_qml.cpp.aotstats .rcc/qmlcache/appHotel_AdminDashboard_qml.cpp.aotstats .rcc/qmlcache/appHotel_UserDashboard_qml.cpp.aotstats .rcc/qmlcache/appHotel_components/QDatePicker/src/DatePicker_qml.cpp.aotstats .rcc/qmlcache/appHotel_LoginView_qml.cpp.aotstats .rcc/qmlcache/appHotel_LandingPage_qml.cpp.aotstats .rcc/qmlcache/appHotel_RegisterView_qml.cpp.aotstats .rcc/qmlcache/module_appHotel.aotstatslist || appHotel_qmltyperegistration
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug && D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat E:/Qt/6.11.1/mingw_64/bin/qmlaotstats.exe aggregate D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/module_appHotel.aotstatslist D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.rcc/qmlcache/module_appHotel.aotstats"
   DESC = Generating .rcc/qmlcache/module_appHotel.aotstats
   restat = 1
@@ -568,7 +661,7 @@ build CMakeFiles/appHotel_qmlimportscan | ${cmake_ninja_workdir}CMakeFiles/appHo
 #############################################
 # Custom command for .qt\qml_imports\appHotel_build.cmake
 
-build .qt/qml_imports/appHotel_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appHotel_build.cmake: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmlimportscanner.exe .qt/rcc/qmake_Hotel.qrc .qt/rcc/appHotel_raw_qml_0.qrc D$:/Hotel/Main.qml D$:/Hotel/AdminDashboard.qml D$:/Hotel/UserDashboard.qml D$:/Hotel/LoginView.qml
+build .qt/qml_imports/appHotel_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appHotel_build.cmake: CUSTOM_COMMAND E$:/Qt/6.11.1/mingw_64/bin/qmlimportscanner.exe .qt/rcc/qmake_Hotel.qrc .qt/rcc/appHotel_raw_qml_0.qrc .qt/rcc/appHotel_raw_res_0.qrc .qt/rcc/appHotel_raw_qml_0_extra_qmldirs.qrc D$:/Hotel/Main.qml D$:/Hotel/AdminDashboard.qml D$:/Hotel/UserDashboard.qml D$:/Hotel/components/QDatePicker/src/DatePicker.qml D$:/Hotel/LoginView.qml D$:/Hotel/LandingPage.qml D$:/Hotel/RegisterView.qml
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Hotel && D:\Hotel\build\Desktop_Qt_6_11_1_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat E:/Qt/6.11.1/mingw_64/bin/qmlimportscanner.exe @D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/.qt/qml_imports/appHotel_build.rsp"
   DESC = Running qmlimportscanner for appHotel
   restat = 1

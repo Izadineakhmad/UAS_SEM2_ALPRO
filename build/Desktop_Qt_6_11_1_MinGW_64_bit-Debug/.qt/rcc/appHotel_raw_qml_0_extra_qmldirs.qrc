@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Hotel/">
+    <file alias="components/QDatePicker/src/qmldir">D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug/Hotel/components/QDatePicker/src/qmldir</file>
+  </qresource>
+</RCC>
+

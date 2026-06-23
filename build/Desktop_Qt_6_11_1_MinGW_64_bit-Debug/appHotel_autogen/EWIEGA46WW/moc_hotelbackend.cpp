@@ -39,6 +39,10 @@ template <> constexpr inline auto HotelBackend::qt_create_metaobjectdata<qt_meta
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
         "HotelBackend",
+        "QML.Element",
+        "HotelApp",
+        "QML.Singleton",
+        "true",
         "userChanged",
         "",
         "notify",
@@ -47,6 +51,8 @@ template <> constexpr inline auto HotelBackend::qt_create_metaobjectdata<qt_meta
         "login",
         "username",
         "password",
+        "registerUser",
+        "name",
         "logout",
         "getAdminStats",
         "QVariantMap",
@@ -57,87 +63,140 @@ template <> constexpr inline auto HotelBackend::qt_create_metaobjectdata<qt_meta
         "tipe",
         "harga",
         "kapasitas",
-        "deleteRoom",
+        "editRoom",
         "id",
+        "status",
+        "deleteRoom",
         "getAllTransactions",
         "processTransaction",
         "newStatus",
+        "getAllUsers",
+        "addUser",
+        "roleInt",
+        "statusInt",
+        "editUser",
+        "deleteUser",
+        "approveUser",
         "getAvailableRooms",
         "getAvailableRoomsSortedByPrice",
         "searchRooms",
         "keyword",
         "bookRoom",
-        "roomId",
-        "malam",
+        "roomType",
+        "checkInDate",
+        "checkOutDate",
         "getMyTransactions",
         "saveData",
         "loadData",
+        "checkAutoCheckout",
+        "saveUsersToCSV",
+        "loadOtomatisCSVUser",
         "currentUserName",
         "currentUserRole"
     };
 
     QtMocHelpers::UintData qt_methods {
         // Signal 'userChanged'
-        QtMocHelpers::SignalData<void()>(1, 2, QMC::AccessPublic, QMetaType::Void),
+        QtMocHelpers::SignalData<void()>(5, 6, QMC::AccessPublic, QMetaType::Void),
         // Signal 'notify'
-        QtMocHelpers::SignalData<void(QString, bool)>(3, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::QString, 4 }, { QMetaType::Bool, 5 },
+        QtMocHelpers::SignalData<void(QString, bool)>(7, 6, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QString, 8 }, { QMetaType::Bool, 9 },
         }}),
         // Method 'login'
-        QtMocHelpers::MethodData<bool(const QString &, const QString &)>(6, 2, QMC::AccessPublic, QMetaType::Bool, {{
-            { QMetaType::QString, 7 }, { QMetaType::QString, 8 },
+        QtMocHelpers::MethodData<bool(const QString &, const QString &)>(10, 6, QMC::AccessPublic, QMetaType::Bool, {{
+            { QMetaType::QString, 11 }, { QMetaType::QString, 12 },
+        }}),
+        // Method 'registerUser'
+        QtMocHelpers::MethodData<bool(const QString &, const QString &, const QString &)>(13, 6, QMC::AccessPublic, QMetaType::Bool, {{
+            { QMetaType::QString, 14 }, { QMetaType::QString, 11 }, { QMetaType::QString, 12 },
         }}),
         // Method 'logout'
-        QtMocHelpers::MethodData<void()>(9, 2, QMC::AccessPublic, QMetaType::Void),
+        QtMocHelpers::MethodData<void()>(15, 6, QMC::AccessPublic, QMetaType::Void),
         // Method 'getAdminStats'
-        QtMocHelpers::MethodData<QVariantMap()>(10, 2, QMC::AccessPublic, 0x80000000 | 11),
+        QtMocHelpers::MethodData<QVariantMap()>(16, 6, QMC::AccessPublic, 0x80000000 | 17),
         // Method 'getAllRooms'
-        QtMocHelpers::MethodData<QVariantList()>(12, 2, QMC::AccessPublic, 0x80000000 | 13),
+        QtMocHelpers::MethodData<QVariantList()>(18, 6, QMC::AccessPublic, 0x80000000 | 19),
         // Method 'addRoom'
-        QtMocHelpers::MethodData<bool(const QString &, const QString &, double, int)>(14, 2, QMC::AccessPublic, QMetaType::Bool, {{
-            { QMetaType::QString, 15 }, { QMetaType::QString, 16 }, { QMetaType::Double, 17 }, { QMetaType::Int, 18 },
+        QtMocHelpers::MethodData<bool(const QString &, const QString &, double, int)>(20, 6, QMC::AccessPublic, QMetaType::Bool, {{
+            { QMetaType::QString, 21 }, { QMetaType::QString, 22 }, { QMetaType::Double, 23 }, { QMetaType::Int, 24 },
+        }}),
+        // Method 'editRoom'
+        QtMocHelpers::MethodData<bool(int, const QString &, const QString &, double, int, int)>(25, 6, QMC::AccessPublic, QMetaType::Bool, {{
+            { QMetaType::Int, 26 }, { QMetaType::QString, 21 }, { QMetaType::QString, 22 }, { QMetaType::Double, 23 },
+            { QMetaType::Int, 27 }, { QMetaType::Int, 24 },
         }}),
         // Method 'deleteRoom'
-        QtMocHelpers::MethodData<bool(int)>(19, 2, QMC::AccessPublic, QMetaType::Bool, {{
-            { QMetaType::Int, 20 },
+        QtMocHelpers::MethodData<bool(int)>(28, 6, QMC::AccessPublic, QMetaType::Bool, {{
+            { QMetaType::Int, 26 },
         }}),
         // Method 'getAllTransactions'
-        QtMocHelpers::MethodData<QVariantList()>(21, 2, QMC::AccessPublic, 0x80000000 | 13),
+        QtMocHelpers::MethodData<QVariantList()>(29, 6, QMC::AccessPublic, 0x80000000 | 19),
         // Method 'processTransaction'
-        QtMocHelpers::MethodData<bool(int, const QString &)>(22, 2, QMC::AccessPublic, QMetaType::Bool, {{
-            { QMetaType::Int, 20 }, { QMetaType::QString, 23 },
+        QtMocHelpers::MethodData<bool(int, const QString &)>(30, 6, QMC::AccessPublic, QMetaType::Bool, {{
+            { QMetaType::Int, 26 }, { QMetaType::QString, 31 },
+        }}),
+        // Method 'getAllUsers'
+        QtMocHelpers::MethodData<QVariantList()>(32, 6, QMC::AccessPublic, 0x80000000 | 19),
+        // Method 'addUser'
+        QtMocHelpers::MethodData<bool(const QString &, const QString &, const QString &, int, int)>(33, 6, QMC::AccessPublic, QMetaType::Bool, {{
+            { QMetaType::QString, 14 }, { QMetaType::QString, 11 }, { QMetaType::QString, 12 }, { QMetaType::Int, 34 },
+            { QMetaType::Int, 35 },
+        }}),
+        // Method 'editUser'
+        QtMocHelpers::MethodData<bool(int, const QString &, const QString &, const QString &, int, int)>(36, 6, QMC::AccessPublic, QMetaType::Bool, {{
+            { QMetaType::Int, 26 }, { QMetaType::QString, 14 }, { QMetaType::QString, 11 }, { QMetaType::QString, 12 },
+            { QMetaType::Int, 34 }, { QMetaType::Int, 35 },
+        }}),
+        // Method 'deleteUser'
+        QtMocHelpers::MethodData<bool(int)>(37, 6, QMC::AccessPublic, QMetaType::Bool, {{
+            { QMetaType::Int, 26 },
+        }}),
+        // Method 'approveUser'
+        QtMocHelpers::MethodData<bool(int)>(38, 6, QMC::AccessPublic, QMetaType::Bool, {{
+            { QMetaType::Int, 26 },
         }}),
         // Method 'getAvailableRooms'
-        QtMocHelpers::MethodData<QVariantList()>(24, 2, QMC::AccessPublic, 0x80000000 | 13),
+        QtMocHelpers::MethodData<QVariantList()>(39, 6, QMC::AccessPublic, 0x80000000 | 19),
         // Method 'getAvailableRoomsSortedByPrice'
-        QtMocHelpers::MethodData<QVariantList()>(25, 2, QMC::AccessPublic, 0x80000000 | 13),
+        QtMocHelpers::MethodData<QVariantList()>(40, 6, QMC::AccessPublic, 0x80000000 | 19),
         // Method 'searchRooms'
-        QtMocHelpers::MethodData<QVariantList(const QString &)>(26, 2, QMC::AccessPublic, 0x80000000 | 13, {{
-            { QMetaType::QString, 27 },
+        QtMocHelpers::MethodData<QVariantList(const QString &)>(41, 6, QMC::AccessPublic, 0x80000000 | 19, {{
+            { QMetaType::QString, 42 },
         }}),
         // Method 'bookRoom'
-        QtMocHelpers::MethodData<bool(int, int)>(28, 2, QMC::AccessPublic, QMetaType::Bool, {{
-            { QMetaType::Int, 29 }, { QMetaType::Int, 30 },
+        QtMocHelpers::MethodData<bool(const QString &, const QString &, const QString &)>(43, 6, QMC::AccessPublic, QMetaType::Bool, {{
+            { QMetaType::QString, 44 }, { QMetaType::QString, 45 }, { QMetaType::QString, 46 },
         }}),
         // Method 'getMyTransactions'
-        QtMocHelpers::MethodData<QVariantList()>(31, 2, QMC::AccessPublic, 0x80000000 | 13),
+        QtMocHelpers::MethodData<QVariantList()>(47, 6, QMC::AccessPublic, 0x80000000 | 19),
         // Method 'saveData'
-        QtMocHelpers::MethodData<void()>(32, 2, QMC::AccessPublic, QMetaType::Void),
+        QtMocHelpers::MethodData<void()>(48, 6, QMC::AccessPublic, QMetaType::Void),
         // Method 'loadData'
-        QtMocHelpers::MethodData<void()>(33, 2, QMC::AccessPublic, QMetaType::Void),
+        QtMocHelpers::MethodData<void()>(49, 6, QMC::AccessPublic, QMetaType::Void),
+        // Method 'checkAutoCheckout'
+        QtMocHelpers::MethodData<void()>(50, 6, QMC::AccessPublic, QMetaType::Void),
+        // Method 'saveUsersToCSV'
+        QtMocHelpers::MethodData<void()>(51, 6, QMC::AccessPublic, QMetaType::Void),
+        // Method 'loadOtomatisCSVUser'
+        QtMocHelpers::MethodData<void()>(52, 6, QMC::AccessPublic, QMetaType::Void),
         // Method 'currentUserName'
-        QtMocHelpers::MethodData<QString() const>(34, 2, QMC::AccessPublic, QMetaType::QString),
+        QtMocHelpers::MethodData<QString() const>(53, 6, QMC::AccessPublic, QMetaType::QString),
     };
     QtMocHelpers::UintData qt_properties {
         // property 'currentUserName'
-        QtMocHelpers::PropertyData<QString>(34, QMetaType::QString, QMC::DefaultPropertyFlags, 0),
+        QtMocHelpers::PropertyData<QString>(53, QMetaType::QString, QMC::DefaultPropertyFlags, 0),
         // property 'currentUserRole'
-        QtMocHelpers::PropertyData<QString>(35, QMetaType::QString, QMC::DefaultPropertyFlags, 0),
+        QtMocHelpers::PropertyData<QString>(54, QMetaType::QString, QMC::DefaultPropertyFlags, 0),
     };
     QtMocHelpers::UintData qt_enums {
     };
-    return QtMocHelpers::metaObjectData<HotelBackend, qt_meta_tag_ZN12HotelBackendE_t>(QMC::MetaObjectFlag{}, qt_stringData,
-            qt_methods, qt_properties, qt_enums);
+    QtMocHelpers::UintData qt_constructors {};
+    QtMocHelpers::ClassInfos qt_classinfo({
+            {    1,    2 },
+            {    3,    4 },
+    });
+    return QtMocHelpers::metaObjectData<HotelBackend, void>(QMC::MetaObjectFlag{}, qt_stringData,
+            qt_methods, qt_properties, qt_enums, qt_constructors, qt_classinfo);
 }
 Q_CONSTINIT const QMetaObject HotelBackend::staticMetaObject = { {
     QMetaObject::SuperData::link<QObject::staticMetaObject>(),
@@ -158,32 +217,49 @@ void HotelBackend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         case 1: _t->notify((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<bool>>(_a[2]))); break;
         case 2: { bool _r = _t->login((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])));
             if (_a[0]) *reinterpret_cast<bool*>(_a[0]) = std::move(_r); }  break;
-        case 3: _t->logout(); break;
-        case 4: { QVariantMap _r = _t->getAdminStats();
+        case 3: { bool _r = _t->registerUser((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[3])));
+            if (_a[0]) *reinterpret_cast<bool*>(_a[0]) = std::move(_r); }  break;
+        case 4: _t->logout(); break;
+        case 5: { QVariantMap _r = _t->getAdminStats();
             if (_a[0]) *reinterpret_cast<QVariantMap*>(_a[0]) = std::move(_r); }  break;
-        case 5: { QVariantList _r = _t->getAllRooms();
+        case 6: { QVariantList _r = _t->getAllRooms();
             if (_a[0]) *reinterpret_cast<QVariantList*>(_a[0]) = std::move(_r); }  break;
-        case 6: { bool _r = _t->addRoom((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<double>>(_a[3])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[4])));
+        case 7: { bool _r = _t->addRoom((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<double>>(_a[3])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[4])));
             if (_a[0]) *reinterpret_cast<bool*>(_a[0]) = std::move(_r); }  break;
-        case 7: { bool _r = _t->deleteRoom((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])));
+        case 8: { bool _r = _t->editRoom((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[3])),(*reinterpret_cast<std::add_pointer_t<double>>(_a[4])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[5])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[6])));
             if (_a[0]) *reinterpret_cast<bool*>(_a[0]) = std::move(_r); }  break;
-        case 8: { QVariantList _r = _t->getAllTransactions();
-            if (_a[0]) *reinterpret_cast<QVariantList*>(_a[0]) = std::move(_r); }  break;
-        case 9: { bool _r = _t->processTransaction((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])));
+        case 9: { bool _r = _t->deleteRoom((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])));
             if (_a[0]) *reinterpret_cast<bool*>(_a[0]) = std::move(_r); }  break;
-        case 10: { QVariantList _r = _t->getAvailableRooms();
+        case 10: { QVariantList _r = _t->getAllTransactions();
             if (_a[0]) *reinterpret_cast<QVariantList*>(_a[0]) = std::move(_r); }  break;
-        case 11: { QVariantList _r = _t->getAvailableRoomsSortedByPrice();
-            if (_a[0]) *reinterpret_cast<QVariantList*>(_a[0]) = std::move(_r); }  break;
-        case 12: { QVariantList _r = _t->searchRooms((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])));
-            if (_a[0]) *reinterpret_cast<QVariantList*>(_a[0]) = std::move(_r); }  break;
-        case 13: { bool _r = _t->bookRoom((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[2])));
+        case 11: { bool _r = _t->processTransaction((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])));
             if (_a[0]) *reinterpret_cast<bool*>(_a[0]) = std::move(_r); }  break;
-        case 14: { QVariantList _r = _t->getMyTransactions();
+        case 12: { QVariantList _r = _t->getAllUsers();
             if (_a[0]) *reinterpret_cast<QVariantList*>(_a[0]) = std::move(_r); }  break;
-        case 15: _t->saveData(); break;
-        case 16: _t->loadData(); break;
-        case 17: { QString _r = _t->currentUserName();
+        case 13: { bool _r = _t->addUser((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[3])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[4])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[5])));
+            if (_a[0]) *reinterpret_cast<bool*>(_a[0]) = std::move(_r); }  break;
+        case 14: { bool _r = _t->editUser((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[3])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[4])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[5])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[6])));
+            if (_a[0]) *reinterpret_cast<bool*>(_a[0]) = std::move(_r); }  break;
+        case 15: { bool _r = _t->deleteUser((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])));
+            if (_a[0]) *reinterpret_cast<bool*>(_a[0]) = std::move(_r); }  break;
+        case 16: { bool _r = _t->approveUser((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])));
+            if (_a[0]) *reinterpret_cast<bool*>(_a[0]) = std::move(_r); }  break;
+        case 17: { QVariantList _r = _t->getAvailableRooms();
+            if (_a[0]) *reinterpret_cast<QVariantList*>(_a[0]) = std::move(_r); }  break;
+        case 18: { QVariantList _r = _t->getAvailableRoomsSortedByPrice();
+            if (_a[0]) *reinterpret_cast<QVariantList*>(_a[0]) = std::move(_r); }  break;
+        case 19: { QVariantList _r = _t->searchRooms((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])));
+            if (_a[0]) *reinterpret_cast<QVariantList*>(_a[0]) = std::move(_r); }  break;
+        case 20: { bool _r = _t->bookRoom((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[3])));
+            if (_a[0]) *reinterpret_cast<bool*>(_a[0]) = std::move(_r); }  break;
+        case 21: { QVariantList _r = _t->getMyTransactions();
+            if (_a[0]) *reinterpret_cast<QVariantList*>(_a[0]) = std::move(_r); }  break;
+        case 22: _t->saveData(); break;
+        case 23: _t->loadData(); break;
+        case 24: _t->checkAutoCheckout(); break;
+        case 25: _t->saveUsersToCSV(); break;
+        case 26: _t->loadOtomatisCSVUser(); break;
+        case 27: { QString _r = _t->currentUserName();
             if (_a[0]) *reinterpret_cast<QString*>(_a[0]) = std::move(_r); }  break;
         default: ;
         }
@@ -223,14 +299,14 @@ int HotelBackend::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 18)
+        if (_id < 28)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 18;
+        _id -= 28;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 18)
+        if (_id < 28)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 18;
+        _id -= 28;
     }
     if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty

@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-7231ba9e6e9d6ffb5148.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Hotel",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-499a14f2bd5b269a84b6.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-9d4b39f3d7fb944719a9.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-7e6198558ca8b0e8ac32.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-d5f42e108759dd41db80.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-4e52c3579a82388078f8.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appHotel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appHotel-Debug-cb572e4625ad28eac1fb.json",
+					"name" : "appHotel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appHotel_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appHotel_autogen-Debug-3c3feb79bb82bb29575d.json",
+					"name" : "appHotel_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appHotel_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appHotel_autogen_timestamp_deps-Debug-cf1600f255442626faa1.json",
+					"name" : "appHotel_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appHotel_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appHotel_copy_qml-Debug-c0baab4158f47d153408.json",
+					"name" : "appHotel_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appHotel_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appHotel_copy_res-Debug-38fcfebe49bcd638fb11.json",
+					"name" : "appHotel_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appHotel_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appHotel_qmlimportscan-Debug-f8ce3535c7a67b990dc7.json",
+					"name" : "appHotel_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appHotel_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appHotel_qmllint-Debug-485d85b9c5672dd6ea6d.json",
+					"name" : "appHotel_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appHotel_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appHotel_qmllint_json-Debug-85f2140eb97f5db30b96.json",
+					"name" : "appHotel_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appHotel_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appHotel_qmllint_module-Debug-00e3c9a836b8fd53507d.json",
+					"name" : "appHotel_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appHotel_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appHotel_qmltyperegistration-Debug-3c80faabc2e6000324fe.json",
+					"name" : "appHotel_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_qml_context_properties-Debug-7bbae54e13737a1f86a3.json",
+					"name" : "clean_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dump_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dump_qml_context_properties-Debug-5d8a181bb96fe97879aa.json",
+					"name" : "dump_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-e21b76a128a8edf7df12.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appHotel_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appHotel_aotstats_target-Debug-85ff6605a2cc514baf68.json",
+					"name" : "module_appHotel_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Hotel/build/Desktop_Qt_6_11_1_MinGW_64_bit-Debug",
+		"source" : "D:/Hotel"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

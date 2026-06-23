@@ -10,7 +10,7 @@
                             "column": 19,
                             "durationMicroseconds": 0,
                             "functionName": "maximumWidth",
-                            "line": 11,
+                            "line": 12,
                             "message": "Could not find property \"maximumWidth\"."
                         },
                         {
@@ -18,7 +18,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "maximumHeight",
-                            "line": 12,
+                            "line": 13,
                             "message": "Could not find property \"maximumHeight\"."
                         },
                         {
@@ -26,7 +26,7 @@
                             "column": 12,
                             "durationMicroseconds": 0,
                             "functionName": "x",
-                            "line": 20,
+                            "line": 21,
                             "message": "Could not find property \"x\"."
                         },
                         {
@@ -34,7 +34,7 @@
                             "column": 22,
                             "durationMicroseconds": 0,
                             "functionName": "closePolicy",
-                            "line": 24,
+                            "line": 25,
                             "message": "Could not find property \"closePolicy\"."
                         },
                         {
@@ -42,7 +42,7 @@
                             "column": 19,
                             "durationMicroseconds": 0,
                             "functionName": "onOpened",
-                            "line": 46,
+                            "line": 47,
                             "message": "Could not find signal \"opened\"."
                         },
                         {
@@ -50,7 +50,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 30,
+                            "line": 31,
                             "message": "Cannot access value for name notificationPopup"
                         },
                         {
@@ -58,7 +58,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 36,
+                            "line": 37,
                             "message": ""
                         },
                         {
@@ -66,23 +66,23 @@
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "onTriggered",
-                            "line": 44,
+                            "line": 45,
                             "message": "Cannot retrieve a non-object type by ID: notificationPopup"
                         },
                         {
-                            "codegenResult": 2,
+                            "codegenResult": 0,
                             "column": 17,
                             "durationMicroseconds": 0,
                             "functionName": "target",
-                            "line": 50,
-                            "message": "Cannot access value for name HotelApp"
+                            "line": 51,
+                            "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 9,
                             "durationMicroseconds": 0,
                             "functionName": "onNotify",
-                            "line": 51,
+                            "line": 52,
                             "message": "Functions without type annotations won't be compiled"
                         },
                         {
@@ -90,8 +90,16 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 60,
+                            "line": 61,
                             "message": "Could not find property \"fill\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "onLoginRequested",
+                            "line": 64,
+                            "message": "Cannot access value for name mainStack"
                         }
                     ],
                     "filePath": "D:/Hotel/Main.qml"

@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="/qt/qml/Hotel/">
+    <file alias="images/hotel.jpg">D:/Hotel/images/hotel.jpg</file>
+    <file alias="images/logo.png">D:/Hotel/images/logo.png</file>
+    <file alias="images/logonotext.png">D:/Hotel/images/logonotext.png</file>
+    <file alias="images/logovertical.png">D:/Hotel/images/logovertical.png</file>
+    <file alias="images/standard.jpg">D:/Hotel/images/standard.jpg</file>
+    <file alias="images/deluxe.jpg">D:/Hotel/images/deluxe.jpg</file>
+    <file alias="images/suite.jpg">D:/Hotel/images/suite.jpg</file>
+  </qresource>
+</RCC>
+

@@ -2,6 +2,7 @@
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 #include "hotelbackend.h" // Masukkan Header Anda
+#include "components/QDatePicker/src/qdatepicker.h"
 
 int main(int argc, char *argv[])
 {
@@ -11,6 +12,12 @@ int main(int argc, char *argv[])
     HotelBackend hotelBackend;
 
     QQmlApplicationEngine engine;
+
+    qmlRegisterType<QDatePicker>(
+        "QDatePicker",
+        1, 0,
+        "QDatePicker"
+    );
 
     // [PENTING] Menyambungkan C++ ke QML
     // Kata "HotelApp" inilah yang dipanggil di QML (cth: HotelApp.login(...))

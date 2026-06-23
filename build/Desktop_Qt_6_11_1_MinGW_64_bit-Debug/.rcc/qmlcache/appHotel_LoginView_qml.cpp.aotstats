@@ -6,11 +6,19 @@
                 {
                     "entries": [
                         {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 0,
+                            "functionName": "enterLogin",
+                            "line": 8,
+                            "message": "Cannot access value for name mainStack"
+                        },
+                        {
                             "codegenResult": 0,
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 9,
+                            "line": 22,
                             "message": ""
                         },
                         {
@@ -18,7 +26,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 16,
+                            "line": 32,
                             "message": ""
                         },
                         {
@@ -26,7 +34,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 14,
+                            "line": 30,
                             "message": ""
                         },
                         {
@@ -34,7 +42,7 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 22,
+                            "line": 38,
                             "message": ""
                         },
                         {
@@ -42,7 +50,23 @@
                             "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 29,
+                            "line": 44,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 33,
+                            "durationMicroseconds": 0,
+                            "functionName": "onAccepted",
+                            "line": 63,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 59,
                             "message": ""
                         },
                         {
@@ -50,47 +74,151 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "echoMode",
-                            "line": 42,
+                            "line": 69,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 32,
+                            "column": 33,
                             "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 64,
-                            "message": "Cannot access value for name HotelApp"
+                            "functionName": "onAccepted",
+                            "line": 81,
+                            "message": "method enterLogin cannot be resolved."
                         },
                         {
-                            "codegenResult": 2,
-                            "column": 32,
+                            "codegenResult": 0,
+                            "column": 39,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 54,
-                            "message": "Cannot load property down from (component in D:/Hotel/LoginView.qml)::parent with type QQuickItem."
+                            "line": 77,
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 31,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 85,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 105,
+                            "message": "Cannot access value for name mainStack"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 58,
-                            "message": ""
+                            "line": 95,
+                            "message": "Cannot load property text from (component in D:/Hotel/LoginView.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 96,
+                            "message": "Cannot load property hovered from (component in D:/Hotel/LoginView.qml)::parent with type QQuickItem."
                         },
                         {
                             "codegenResult": 0,
-                            "column": 46,
+                            "column": 50,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 61,
+                            "line": 99,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 44,
+                            "column": 48,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 62,
+                            "line": 100,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 131,
+                            "message": "method enterLogin cannot be resolved."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 117,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 50,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalAlignment",
+                            "line": 121,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalAlignment",
+                            "line": 122,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 126,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 156,
+                            "message": "Cannot access value for name mainStack"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 144,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 145,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 50,
+                            "durationMicroseconds": 0,
+                            "functionName": "horizontalAlignment",
+                            "line": 148,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "verticalAlignment",
+                            "line": 149,
                             "message": ""
                         }
                     ],

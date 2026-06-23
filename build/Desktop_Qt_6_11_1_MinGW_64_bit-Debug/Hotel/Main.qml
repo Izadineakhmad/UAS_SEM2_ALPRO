@@ -3,6 +3,7 @@ import QtQuick.Controls
 import QtQuick.Layouts
 
 ApplicationWindow {
+    id: appWindow
     visible: true
     width: 1280
     height: 720
@@ -58,7 +59,13 @@ ApplicationWindow {
     StackView {
         id: mainStack
         anchors.fill: parent
-        initialItem: "LoginView.qml"
+        initialItem: LandingPage {
+            // Menangkap sinyal loginRequested() dan mengarahkan ke halaman login
+            onLoginRequested: {
+            console.log("Muncul ke Login")
+            mainStack.push("LoginView.qml")
+            }
+        }
     }
 
 }
